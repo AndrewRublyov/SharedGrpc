@@ -6,10 +6,8 @@
         <RootNamespace>ConsoleApp1</RootNamespace>
     </PropertyGroup>
 
-    <Import Project="..\GrpcProtos\GrpcProtos.projitems" Label="Shared" />
-
     <ItemGroup>
-        <Protobuf Include="..\GrpcProtos\*.proto" GrpcServices="Client" />
+        <Protobuf Include="..\Protos\*.proto" GrpcServices="Client" />
     </ItemGroup>
 
     <ItemGroup>

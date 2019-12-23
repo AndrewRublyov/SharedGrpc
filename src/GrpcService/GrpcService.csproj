@@ -8,10 +8,8 @@
         <PackageReference Include="Grpc.AspNetCore" Version="2.26.0" />
     </ItemGroup>
 
-    <Import Project="..\GrpcProtos\GrpcProtos.projitems" Label="Shared" />
-
     <ItemGroup>
-        <Protobuf Include="..\GrpcProtos\*.proto" GrpcServices="Server" />
+        <Protobuf Include="..\Protos\*.proto" GrpcServices="Server" />
     </ItemGroup>
     
 </Project>
